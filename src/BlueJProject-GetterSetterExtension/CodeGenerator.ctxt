@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=CodeGenerator
+comment0.text=\n\ Use\ API\ java.lang.reflect\ to\ generate\ (only\ if\ no\ exist)\n\ 1)\ All\ GET/SET\ methods\n\ 2)\ GET\ or\ SET\ method\ of\ one\ propertie\ \n\ \n\ @author\ (Milton\ Jes&uacute;s\ Vera\ Contreras\ -\ miltonjesusvc@ufps.edu.co)\ \n\ @version\ 0.0000000000000001\ -->\ Math.sin(Math.PI-Double.MIN_VALUE)\ -->\ \:)\n
+comment1.params=
+comment1.target=CodeGenerator()
+comment1.text=Default\ Constructor
+comment2.params=theClass
+comment2.target=java.lang.String\ generateGetterSetter(java.lang.Class)
+comment2.text=\n\ Generate\ all\ GET/SET\ methods\ of\ theClass\n\ @param\ theClass\ the\ java.lang.reflect\ Class\n\ @return\ source\ code\ GET/SET\ methods\ \n\ \n
+comment3.params=theClass\ field
+comment3.target=java.lang.String\ generateGetter(java.lang.Class,\ java.lang.reflect.Field)
+comment3.text=\n\ Generate\ GET\ methods\ of\ theClass\ and\ field\n\ @param\ theClass\ the\ java.lang.reflect\ Class\n\ @param\ field\ the\ java.lang.reflect\ Filed\n\ @return\ source\ code\ GET\ method\ to\ theClass\ and\ field\n\ \n
+comment4.params=theClass\ propertie
+comment4.target=java.lang.String\ generateGetter(java.lang.Class,\ java.lang.String)
+comment4.text=\n\ Generate\ GET\ methods\ of\ theClass\ and\ propertie\n\ @param\ theClass\ the\ java.lang.reflect\ Class\n\ @param\ propertie\ an\ propertie\ name\n\ @return\ source\ code\ GET\ method\ to\ theClass\ and\ propertie\n\ \n
+comment5.params=theClass\ propertie
+comment5.target=java.lang.String\ generateSetter(java.lang.Class,\ java.lang.String)
+comment5.text=\n\ Generate\ SET\ methods\ of\ theClass\ and\ propertie\n\ @param\ theClass\ the\ java.lang.reflect\ Class\n\ @param\ propertie\ an\ propertie\ name\n\ @return\ source\ code\ SET\ method\ to\ theClass\ and\ propertie\n\ \n
+comment6.params=theClass\ field
+comment6.target=java.lang.String\ generateSetter(java.lang.Class,\ java.lang.reflect.Field)
+comment6.text=\n\ Generate\ SET\ methods\ of\ theClass\ and\ field\n\ @param\ theClass\ the\ java.lang.reflect\ Class\n\ @param\ field\ the\ java.lang.reflect\ Filed\n\ @return\ source\ code\ SET\ method\ to\ theClass\ and\ field\n\ \n
+numComments=7

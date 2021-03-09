@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MenuBuilder
+comment0.text=\n\ MenuBuilder\ to\ GetterSetterExtension\n\ \n\ \n\ @author\ (Milton\ Jes&uacute;s\ Vera\ Contreras\ -\ miltonjesusvc@ufps.edu.co)\ \n\ @version\ 0.0000000000000001\ -->\ Math.sin(Math.PI-Double.MIN_VALUE)\ -->\ \:)\n
+comment1.params=ext
+comment1.target=MenuBuilder(GetterSetterExtension)
+comment1.text=Default\ Constructor
+comment2.params=aClass
+comment2.target=javafx.scene.control.MenuItem\ getClassMenuItem(bluej.extensions2.BClass)
+comment2.text=\n\ Generate\ the\ Menu\ and\ MenuItem\ to\ BlueJ\ Class.\ If\ class\ is\ not\ compiled\ show\ MenuItem\ "Class\ No\ Compiled..."\n
+comment3.params=anObject
+comment3.target=javafx.scene.control.MenuItem\ getObjectMenuItem(bluej.extensions2.BObject)
+comment3.text=\n\ Generate\ the\ Menu\ and\ MenuItem\ to\ BlueJ\ Object\n
+comment4.params=bp\ jmi
+comment4.target=void\ notifyPostToolsMenu(bluej.extensions2.BPackage,\ javafx.scene.control.MenuItem)
+comment5.params=bc\ jmi
+comment5.target=void\ notifyPostClassMenu(bluej.extensions2.BClass,\ javafx.scene.control.MenuItem)
+comment6.params=bo\ jmi
+comment6.target=void\ notifyPostObjectMenu(bluej.extensions2.BObject,\ javafx.scene.control.MenuItem)
+numComments=7

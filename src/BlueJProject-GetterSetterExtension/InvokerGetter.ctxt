@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=InvokerGetter
+comment0.text=\n\ InvokerGetter\ Task\n\ Weapper\ to\ concurrency.\ Invoke\ getter\ using\ Thread\n\ \n\ @author\ (Milton\ Jes&uacute;s\ Vera\ Contreras\ -\ miltonjesusvc@ufps.edu.co)\ \n\ @version\ 0.0000000000000001\ -->\ Math.sin(Math.PI-Double.MIN_VALUE)\ -->\ \:)\n
+comment1.params=gsPane
+comment1.target=InvokerGetter(GetterSetterPane)
+comment2.params=
+comment2.target=java.lang.Void\ call()
+comment3.params=
+comment3.target=void\ succeeded()
+numComments=4

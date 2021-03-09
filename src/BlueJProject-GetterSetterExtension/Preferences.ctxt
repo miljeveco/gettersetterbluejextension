@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Preferences
+comment0.text=\n\ Wrapper\ to\ BlueJ\ Extension\ Preferences\ Panel\ \n
+comment1.params=bluej
+comment1.target=Preferences(bluej.extensions2.BlueJ)
+comment2.params=
+comment2.target=javafx.scene.layout.Pane\ getWindow()
+comment3.params=
+comment3.target=void\ saveValues()
+comment4.params=
+comment4.target=void\ loadValues()
+numComments=5

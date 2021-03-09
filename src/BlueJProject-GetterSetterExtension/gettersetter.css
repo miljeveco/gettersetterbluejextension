@@ -1,0 +1,38 @@
+.getter-setter-button {
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.getter-setter-button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.getter-setter-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+#getter-setter-title {
+   -fx-font-size: 20px;
+   -fx-font-family: "Arial";
+   -fx-fill: #818181;   
+   -fx-effect: dropshadow( gaussian , rgba(255,0,0,0.5) , 0,0,0,1 );
+}
+
+.getter-setter-text-field {
+    -fx-font-size: 12px;
+    -fx-background-color: #f5f8fc;
+    -fx-border-color: #61a2b1;
+    -fx-alignment: center;
+}
+
+.getter-setter-text-field:focused {
+    -fx-background-color: #ceddf0;
+    -fx-alignment: center-left ;
+}

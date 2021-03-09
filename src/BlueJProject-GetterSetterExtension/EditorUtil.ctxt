@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=EditorUtil
+comment0.text=\n\ Simple\ Wrapper\ bluej.extensions2.editor.JavaEditor\n\ \ \n\ @author\ (Milton\ Jes&uacute;s\ Vera\ Contreras\ -\ miltonjesusvc@ufps.edu.co)\ \n\ @version\ 0.0000000000000001\ -->\ Math.sin(Math.PI-Double.MIN_VALUE)\ -->\ \:)\n
+comment1.params=curClass
+comment1.target=EditorUtil(bluej.extensions2.BClass)
+comment2.params=appendText
+comment2.target=void\ appendText(java.lang.String)
+comment2.text=\n\ Append\ appendText\ before\ last\ Curly\ Braces\n\ @param\ appendText\ the\ text\ to\ be\ appended\n
+numComments=3

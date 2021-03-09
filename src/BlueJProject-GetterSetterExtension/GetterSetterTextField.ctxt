@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GetterSetterTextField
+comment0.text=\n\ GetterSetterTextField\ is\ a\ TextField\ Wrapper\ to\ invoke\ getter\ and\ setter\n\ \n\ @author\ (Milton\ Jes&uacute;s\ Vera\ Contreras\ -\ miltonjesusvc@ufps.edu.co)\ \n\ @version\ 0.0000000000000001\ -->\ Math.sin(Math.PI-Double.MIN_VALUE)\ -->\ \:)\n
+comment1.params=gsi\ propertie
+comment1.target=GetterSetterTextField(GetterSetterIntrospector,\ java.lang.String)
+comment2.params=
+comment2.target=boolean\ set()
+comment2.text=Invoke\ set\ method\ using\ this.getText()\ value
+comment3.params=
+comment3.target=void\ get()
+comment3.text=Invoke\ get\ method\ on\ obejct\ and\ set\ textvalue
+comment4.params=
+comment4.target=java.lang.String\ getPropertie()
+comment4.text=Getter\ propertie
+numComments=5
