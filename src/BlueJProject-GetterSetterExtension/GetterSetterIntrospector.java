@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
-
 /**
  * GetterSetterIntrospector  use API Java-Reflect
  * 
@@ -143,9 +142,12 @@ public class GetterSetterIntrospector
 
         for(int i=0; i<fields.length;i++)
         {
-            String propertie = fields[i].getName().substring(0,1).toUpperCase() + fields[i].getName().substring(1);
-            if(getBMethodSet(propertie) == null)
-                properties.append(fields[i].getName()+",");
+            //Filter final properties
+            if(!Modifier.isFinal(fields[i].getModifiers())){
+                String propertie = fields[i].getName().substring(0,1).toUpperCase() + fields[i].getName().substring(1);
+                if(getBMethodSet(propertie) == null)
+                    properties.append(fields[i].getName()+",");
+            }
         }//end for fields
 
         if(properties.length() > 0)return properties.substring(0, properties.length()-1).split(",");
@@ -278,7 +280,7 @@ public class GetterSetterIntrospector
             }catch(Exception e){error = true;}        
         }//end while
     }//end calculateLengthArray
-    
+
     /**Getter bClass*/
     public BClass getTheBClass(){
         return this.theBClass;
@@ -317,7 +319,7 @@ public class GetterSetterIntrospector
             System.err.println("GetterSetter Extension error: "+ e.getMessage() + "\n" + errors.toString());
         }
         finally{
-         try{if(theBObjectIsArray()) obj.removeFromBench();}catch(Exception e1){}
+            try{if(theBObjectIsArray()) obj.removeFromBench();}catch(Exception e1){}
         }
         return result;
     }//end invokeGetter
@@ -340,7 +342,7 @@ public class GetterSetterIntrospector
                 case 2: value = Short.valueOf(textValue);break;
                 case 3: value = Integer.valueOf(textValue);break;
                 case 4: value = Long.valueOf(textValue);break;
-                //Temporal hack. How to exception of float type?
+                    //Temporal hack. How to exception of float type?
                 case 5: value = Integer.valueOf(((int)Double.valueOf(textValue).floatValue()));break;
                 case 6: value = Double.valueOf(textValue);break;
                 case 7: value = textValue;break;
@@ -357,7 +359,7 @@ public class GetterSetterIntrospector
             System.err.println("GetterSetter Extension error: "+ e.getMessage() + "\n" + errors.toString());
         }//fin catch
         finally{
-          try{if(theBObjectIsArray()) obj.removeFromBench();}catch(Exception e1){}
+            try{if(theBObjectIsArray()) obj.removeFromBench();}catch(Exception e1){}
         }
         return rta;
     }//end invokeSetter    
