@@ -34,7 +34,8 @@ public class CodeGenerator
         for(int i=0; i<fields.length;i++)
         {
             code.append(this.generateGetter(theClass,fields[i]));
-            code.append(this.generateSetter(theClass,fields[i]));
+            if(!Modifier.isFinal(fields[i].getModifiers()))
+             code.append(this.generateSetter(theClass,fields[i]));
         }//end for fields
 
         return code.toString();
